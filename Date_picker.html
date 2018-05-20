@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
     <title></title>
     <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet"
@@ -7,9 +7,11 @@
     <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script language="javascript">
         $(document).ready(function () {
-            $("#txtdate").datepicker({
+            $("#txtdate").datepicker(
+                {
                 minDate: 0
-            });
+            }
+            );
         });
     </script>
 </head>
